@@ -1,0 +1,25 @@
+{
+  "name": "thitiwat-t",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/something-comforting/1913130017-restfulapi.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/something-comforting/1913130017-restfulapi/issues"
+  },
+  "homepage": "https://github.com/something-comforting/1913130017-restfulapi#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
