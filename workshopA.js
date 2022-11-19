@@ -9,9 +9,7 @@ const obj = {
   },
 }
 
-const println = () => {
-  const {nickname,hobby,province} = obj
-  console.log(`"My nickname is ${nickname}, My hobby is ${hobby.toString().replace(",",", ")}\nand my postcode is ${province.postcode}"`)
-}
+const str = ({nickname, hobby, province}) => `"My nickname is ${nickname}, My hobby is ${hobby.toString().replace(",",", ")}\nand my postcode is ${province.postcode}"`
 
-println()
+console.log(str(obj))
+
